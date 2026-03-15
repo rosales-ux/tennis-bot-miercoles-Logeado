@@ -1,0 +1,17 @@
+{
+  "name": "tennis-bot-clublavilla",
+  "version": "1.0.0",
+  "description": "Bot automático para reservar cancha de tennis #3 en Club La Villa — Lunes 6:00 AM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --now"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "puppeteer": "^21.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
